@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class album extends Model
+{
+    // use HasFactory;
+    // protected $fillable = [
+    //     '_token',
+    // ];
+
+    protected $fillable = [
+        'name',
+        'description',
+        'cover_image',
+      ];
+}
